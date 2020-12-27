@@ -1,0 +1,91 @@
+  body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+  }
+  
+  header.masthead {
+	height: 40px;
+	position: relative;
+	background-color: #343a40;
+	background: url("./img/background.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 6rem;
+	padding-bottom: 8rem;
+	color: black;
+  }
+  
+  a:hover{
+	  text-decoration: none;
+  }
+  .header-container{
+	  margin-top: 50px;
+  }
+
+  header.masthead .overlay {
+	position: absolute;
+	background-color: #212529;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
+  }
+  
+  header.masthead h1 {
+	font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+	header.masthead {
+	 padding-top: 6rem; 
+	  padding-bottom: 12rem;
+	}
+	header.masthead h1 {
+	  font-size: 3rem;
+	}
+  }
+  
+  .showcase .showcase-text {
+	padding: 3rem;
+  }
+  
+  
+  @media (min-width: 768px) {
+	.showcase .showcase-text {
+	  padding: 7rem;
+	}
+  }
+  
+  
+  .testimonials {
+	padding-top: 2rem;
+	padding-bottom: 7rem;
+  }
+  
+  .artist-list{
+	background: #f8f9fa; 
+	text-align: left; 
+	font-size: 20px
+  }
+
+  .artist-list a{
+	color: black;
+  }
+
+  .artist-list i{
+	color: black;
+  }
+
+
+  .artist-img {
+	height: 230px;
+  }

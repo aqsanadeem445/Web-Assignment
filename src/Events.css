@@ -1,0 +1,52 @@
+sbody{
+    background: #eee;
+    
+
+}
+
+.main-div{
+background: url("./img/background4.jpg") no-repeat center center;
+    
+}
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #0062cc;
+  /* border-bottom:2px solid #0062cc; */
+}
+
+a:hover{
+    text-decoration: none;
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    color:white;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius:0;
+    padding:25px 10px;
+    margin:30px 0px;
+}
+.box-part ul li{
+    background: none;
+}
+
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.events-list{
+    text-align: left;
+}
+
+.pagination .page-item .page-link{
+    color: black;
+}
